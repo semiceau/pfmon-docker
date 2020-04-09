@@ -12,7 +12,7 @@ services:
       - ./influxdb:/var/lib/influxdb
     environment:
       - INFLUXDB_ADMIN_USER=admin
-      - INFLUXDB_ADMIN_PASSWORD=password
+      - INFLUXDB_ADMIN_PASSWORD=password132
       - INFLUXDB_DB=speedtest
   web:
     image: kjake/pfmon-docker:latest
