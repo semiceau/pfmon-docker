@@ -5,7 +5,7 @@ services:
     container_name: influxdb-pfmon
     restart: always
     ports:
-      - "8088:8086"
+      - "8086:8086"
     networks:
       - default
     volumes:
@@ -19,7 +19,7 @@ services:
     container_name: pfweb
     restart: always
     ports:
-      - "4000:3000"
+      - "3000:3000"
     networks:
       - default
     volumes:
